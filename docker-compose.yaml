@@ -1,6 +1,5 @@
 version: "3"
 services:
   squares:
-    image: vinsdocker/squares
-    environment:
-    - NUMBER=5
+    image: nginx
+    

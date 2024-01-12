@@ -1,5 +1,7 @@
 version: "3"
 services:
-  squares:
+  nginx:
     image: nginx
-    
+  alpine:
+    image: alpine
+    entrypoint: "ping nginx"
